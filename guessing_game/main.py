@@ -14,5 +14,6 @@ while start_game:
 
     answer = input("Correto! Deseja jogar novamente? (sim/nao)").upper()
     if answer == "NAO":
-        print("Obrigado por jogar! :)")
         start_game = False
+
+print("Obrigado por jogar! :)")
