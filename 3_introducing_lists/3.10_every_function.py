@@ -1,4 +1,5 @@
-# Este código tem o objetivo de usar todos os métodos e funções aprendidos para interagir com itens dentro de uma lista
+# Este código tem o objetivo de usar todos os métodos e funções 
+# aprendidos para interagir com itens dentro de uma lista
 
 languages = []
 print(f"Lista inicial:\n{languages}")

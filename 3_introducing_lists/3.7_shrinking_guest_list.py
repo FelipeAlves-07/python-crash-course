@@ -1,9 +1,8 @@
-guests = [
-    "guilherme",
-    "matheus",
-    "lucas"
-]
-invitation_message = "estou organizando um jantar para o próximo sábado as 20h, e estou enviando essa mensagem como convite. Nos vemos lá!"
+guests = ["guilherme","matheus","lucas"]
+invitation_message = (
+    "estou organizando um jantar para o próximo sábado as 20h, "
+    "e estou enviando essa mensagem como convite. Nos vemos lá!"
+)
 
 print(f"Olá {guests[0].title()}, {invitation_message}")
 print(f"Olá {guests[1].title()}, {invitation_message}")
@@ -34,9 +33,15 @@ print(f"Olá {guests[3].title()}, {invitation_message}")
 print(f"Olá {guests[4].title()}, {invitation_message}")
 print(f"Olá {guests[5].title()}, {invitation_message}")
 
-print("\nA mesa maior não chegará a tempo, portanto só vou conseguir convidar 2 pessoas!\n")
+print(
+    "\nA mesa maior não chegará a tempo, portanto só vou conseguir convidar "
+    "2 pessoas!\n"
+)
 
-removed_guests_message = "infelizmente vou precisar remover seu convite, assim que a mesa chegar eu marco uma nova data e te convido novamente!"
+removed_guests_message = (
+    "infelizmente vou precisar remover seu convite, assim que a mesa chegar eu "
+    "marco uma nova data e te convido novamente!"
+)
 
 popped_guest = guests.pop()
 print(f"{popped_guest.title()}, {removed_guests_message}")
