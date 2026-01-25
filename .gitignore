@@ -1,2 +1,4 @@
 # Arquivo local usado para testes rápidos
 test.py
+
+__pycache__
